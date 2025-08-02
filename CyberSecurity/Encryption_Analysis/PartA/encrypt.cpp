@@ -1,3 +1,9 @@
+/*
+    encrypt.cpp
+    Performs a symmetric encryption on a binary file using two 10 character keys
+    Encryption is performed as a bit-wise XOR (using the first key), followed by block transposition (once with each key)
+*/
+
 #include <iostream>
 #include <string>
 #include <fstream>
